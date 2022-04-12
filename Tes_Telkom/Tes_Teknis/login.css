@@ -1,0 +1,100 @@
+body{
+  background-color: #fafafa;
+  font-family: sans-serif;
+}
+.container{
+  width: 900px;
+  /* margin: 0px auto; */
+  padding-top: 50px;
+  padding-left: 120px;
+  display: flex;
+}
+.gambar{
+  width: 50%;
+}
+.img-phone{
+  width: 150%;
+}
+.card-wrapper{
+  width: 70%;
+  padding-top: 30px;
+}
+.card{
+  border-style: solid;
+  border-color: #f0f0f0;
+  border-width: 2px;
+  /* padding: 0px; */
+  margin-left: 120px;
+  text-align: center;
+  background-color: white;
+  padding-bottom: 20px;
+  padding-top: 20px;
+}
+.logo{
+  width: 180px;
+  /* margin-top: 20px; */
+}
+.form{
+  margin-top: 10px;
+  /* margin-bottom: 50px; */
+}
+.input{
+  width: 300px;
+  height: 30px;
+  padding: 4px;
+  border-radius: 5px;
+  border: 1px solid grey;
+  margin-top: 10px;
+
+}
+.btn{
+  background-color: #0095f6;
+  border: 0px solid transparent;
+  margin-top: 20px;
+  width: 300px;
+  height: 30px;
+  border-radius: 5px;
+  color: white;
+}
+.login-with{
+  color: #01017a;
+  text-decoration: none;
+  margin-left: 5px;
+  /* padding-left: 5px; */
+}
+
+.or::before{
+  content: '';
+  background: #efefef;
+  display: block;
+  height: 1px;
+  width: 120px;
+  position: relative;
+  margin-left: 50px;
+  bottom: 10px;
+  top: 11px;
+}
+.or::after{
+  content: '';
+  background: #efefef;
+  display: block;
+  height: 1px;
+  width: 120px;
+  position: relative;
+  bottom: 8.9px;
+  /* top: 10px; */
+  margin-right: 50px;
+  /* top:11px; */
+  left: 228px;
+}
+
+.link-forgot{
+  color: grey;
+  text-decoration: none;
+  font-size: 13px;
+  padding-top: 20px;
+}
+.link-signup{
+  color: #0095f6;
+  text-decoration: none;
+}

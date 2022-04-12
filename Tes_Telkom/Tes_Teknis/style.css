@@ -1,0 +1,93 @@
+*{
+  margin: 0;
+  padding: 0;
+}
+.phone{
+  padding-top: 70px;
+  height: 650px;
+  float: right;
+  margin: 10px;
+}
+body{
+  background-color: #fafafa!important;
+}
+.container{
+  margin-top: 20px;
+}
+.right-column{
+  background: #fff;
+  border: 1px solid #e6e6e6;
+  width: 450px;
+  margin: 10px;
+  padding: 10px;
+}
+.instagram-logo{
+  margin: 10px auto;
+}
+.info{
+  font-weight: 600px;
+  line-height: 20px;
+  font-size: 17px;
+  color: #999;
+}
+button img{
+  height: 30px !important;
+  padding: 0 8px 2px;
+}
+.or{
+  font-size: 13px!important;
+  color: #999;
+  font-weight: 600;
+}
+.or::before{
+  content: '';
+  background: #efefef;
+  display: block;
+  height: 2px;
+  width: 200px;
+  position: relative;
+  top: 11px;
+}
+.or::after{
+  content: '';
+  background: #efefef;
+  display: block;
+  height: 2px;
+  width: 200px;
+  position: relative;
+  bottom: 11px;
+  /* top:11px; */
+  left: 228px;
+}
+.form-group{
+  margin-bottom: 6px!important;
+}
+.form-control{
+  background: #fafafa!important;
+  border: 1px solid #efefef!important;
+  font-size: 15px!important;
+}
+::placeholder{
+  color: #999!important;
+}
+.btn{
+  margin: 12px auto;
+  padding: 2px!important;
+  font-weight: 600!important;
+}
+.terms{
+  line-height: 18px;
+  font-size: 14px;
+  color: #999;
+  margin: 5px 20px;
+}
+.right-column-login{
+  background: #fff;
+  border: 1px solid #e6e6e6;
+  width: 450px;
+  margin: 10px;
+  padding: 10px;
+}
+.right-column-login a:hover{
+  text-decoration: none;
+}
